@@ -1,0 +1,22 @@
+Implemented population age breakdown functionality for demographic data in RasterMap component
+Updated RasterMap component with population by age band and sex endpoint for GeoJSON response
+Enhanced settings drawer toggle functionality in MapToolbar component
+Improved loading stability in TimeControl component
+Integrated HourlyModeControl component into TimeControl and updated RasterMap for conditional rendering
+Added admin layer visibility toggle with camera adjustment and enhanced time control step labels with formatted date/time
+Added ExposureLegend component for displaying population impact bands and integrated it into RasterMap
+Added HourlyModeControl component for toggling forecast raster time resolution
+Implemented population impact & exposure settings drawer with updated layout and functionality
+Enhanced admin country options handling for population impact by adding support for sub-district level
+Reduced drawer width from 720 to 520 for improved layout
+Updated pointer events handling in MapToolbar and enhanced admin polygon click behavior in RasterMap
+Added demographic data retrieval for population age breakdown by administrative level
+Added AdminAreaVulnerability model and import command for vulnerability data
+Enhanced build_daily_minmax command with --all option and validation checks
+Implemented daily min/max composite layer calculations for ECMWF and UK Met forecasts
+Implemented daily cleanup of old data folders and orphaned forecast runs
+Added 'active' field to Parameter model and updated admin and view to filter by active status
+Added support for administrative level 3 boundaries and updated related documentation
+Enhanced error handling and logging for boundary fetching processes
+Added remotezip dependency to requirements for handling remote zip files
+Increased celery_worker memory limit to 4g

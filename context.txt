@@ -1,0 +1,266 @@
+Commits on Sep 20, 2026
+Merge pull request #39 from MHMasuk/impact
+feat: enhance layout and responsiveness of HourlyModeControl and Time…
+MHMasuk
+MHMasuk
+authored
+yesterday
+Verified
+feat: enhance layout and responsiveness of HourlyModeControl and TimeControl components
+MHMasuk
+MHMasuk
+committed
+yesterday
+Commits on Sep 17, 2026
+Merge pull request #38 from MHMasuk/impact
+feat: update admin level handling in MapToolbar and RasterMap for imp…
+MHMasuk
+MHMasuk
+authored
+4 days ago
+Verified
+feat: update admin level handling in MapToolbar and RasterMap for improved country selection
+MHMasuk
+MHMasuk
+committed
+4 days ago
+Merge pull request #37 from MHMasuk/impact
+Refactor raster map components and remove icon cluster functionality
+MHMasuk
+MHMasuk
+authored
+4 days ago
+Verified
+Refactor raster map components and remove icon cluster functionality
+- Removed `supercluster` dependency and related icon cluster logic from `RasterMap.js`, `MapToolbar.js`, and other components.
+- Updated `ExposureLegend.js` to adjust the width of the legend.
+- Simplified population impact handling by removing icon cluster state and related functions.
+- Adjusted comments and documentation to reflect the removal of icon cluster features.
+- Cleaned up `package.json` and `package-lock.json` to remove unused dependencies.
+MHMasuk
+MHMasuk
+committed
+4 days ago
+Commits on Sep 15, 2026
+Merge pull request #36 from MHMasuk/impact
+feat: enhance settings drawer toggle functionality in MapToolbar comp…
+MHMasuk
+MHMasuk
+authored
+last week
+Verified
+feat: enhance settings drawer toggle functionality in MapToolbar component
+MHMasuk
+MHMasuk
+committed
+last week
+Merge pull request #35 from MHMasuk/impact
+feat: update ExposureLegend and MapToolbar for improved layout and fu…
+MHMasuk
+MHMasuk
+authored
+last week
+Verified
+feat: improve layout stability during loading in TimeControl component
+MHMasuk
+MHMasuk
+committed
+last week
+feat: update ExposureLegend and MapToolbar for improved layout and functionality
+MHMasuk
+MHMasuk
+committed
+last week
+Merge pull request #34 from MHMasuk/impact
+feat: integrate HourlyModeControl into TimeControl and update RasterM…
+MHMasuk
+MHMasuk
+authored
+last week
+Verified
+feat: integrate HourlyModeControl into TimeControl and update RasterMap for conditional rendering
+MHMasuk
+MHMasuk
+committed
+last week
+Merge pull request #33 from MHMasuk/impact
+MHMasuk
+MHMasuk
+authored
+last week
+Verified
+feat: add admin layer visibility toggle with camera adjustment and enhance time control step labels with formatted date/time
+MHMasuk
+MHMasuk
+committed
+last week
+feat: add ExposureLegend component for displaying population impact bands and integrate it into RasterMap
+MHMasuk
+MHMasuk
+committed
+last week
+Commits on Sep 14, 2026
+feat: add HourlyModeControl component for toggling forecast raster time resolution
+MHMasuk
+MHMasuk
+committed
+last week
+feat: implement population impact & exposure settings drawer with updated layout and functionality
+MHMasuk
+MHMasuk
+committed
+last week
+Commits on Aug 25, 2026
+Merge pull request #32 from MHMasuk/impact
+feat: enhance admin country options handling for population impact by…
+MHMasuk
+MHMasuk
+authored
+last month
+Verified
+feat: enhance admin country options handling for population impact by adding support for sub-district level
+MHMasuk
+MHMasuk
+committed
+last month
+Commits on Aug 23, 2026
+Merge pull request #31 from MHMasuk/impact
+feat: add age grouping functionality for demographic data in RasterMap
+MHMasuk
+MHMasuk
+authored
+last month
+Verified
+feat: add age grouping functionality for demographic data in RasterMap
+MHMasuk
+MHMasuk
+committed
+last month
+Merge pull request #30 from MHMasuk/impact
+Impact
+MHMasuk
+MHMasuk
+authored
+last month
+Verified
+feat: reduce drawer width from 720 to 520 for improved layout
+MHMasuk
+MHMasuk
+committed
+last month
+feat: update pointer events handling in MapToolbar and enhance admin polygon click behavior in RasterMap
+MHMasuk
+MHMasuk
+committed
+last month
+Commits on Aug 20, 2026
+feat: add demographic data retrieval for population age breakdown by administrative level
+MHMasuk
+MHMasuk
+committed
+on Aug 20
+
+
+Commits on Sep 20, 2026
+Add AdminAreaVulnerability model and import command for vulnerability data
+- Created a new model `AdminAreaVulnerability` to store vulnerability scores for administrative areas.
+- Implemented a management command `import_admin_vulnerability` to import vulnerability data from a CSV file, handling district and upazila name discrepancies.
+- Added migration files to create the `AdminAreaVulnerability` model and alter the `parent` field to be nullable, accommodating boundary data inconsistencies.
+MHMasuk
+MHMasuk
+committed
+yesterday
+Merge pull request #30 from MHMasuk/impact
+feat: Add support for daily composite thermal parameters in populatio…
+MHMasuk
+MHMasuk
+authored
+yesterday
+Verified
+feat: Add support for daily composite thermal parameters in population impact calculations
+MHMasuk
+MHMasuk
+committed
+yesterday
+Commits on Sep 17, 2026
+Merge pull request #29 from MHMasuk/impact
+feat: Update admin boundary data sources and add GADM support for Vie…
+MHMasuk
+MHMasuk
+authored
+4 days ago
+Verified
+feat: Update admin boundary data sources and add GADM support for Vietnam's ADM3
+MHMasuk
+MHMasuk
+committed
+4 days ago
+Commits on Sep 15, 2026
+Merge pull request #28 from MHMasuk/impact
+Impact
+MHMasuk
+MHMasuk
+authored
+last week
+Verified
+feat: Enhance build_daily_minmax command with --all option and validation checks
+MHMasuk
+MHMasuk
+committed
+last week
+Commits on Sep 14, 2026
+feat: Implement daily min/max composite layer calculations for ECMWF and UK Met forecasts
+MHMasuk
+MHMasuk
+committed
+last week
+Commits on Sep 2, 2026
+feat: Implement daily cleanup of old data folders and orphaned forecast runs
+MHMasuk
+MHMasuk
+committed
+3 weeks ago
+Commits on Aug 25, 2026
+Merge pull request #27 from MHMasuk/impact
+feat: Add 'active' field to Parameter model and update admin and view…
+MHMasuk
+MHMasuk
+authored
+last month
+Verified
+feat: Add 'active' field to Parameter model and update admin and view to filter by active status
+MHMasuk
+MHMasuk
+committed
+last month
+Merge pull request #26 from MHMasuk/impact
+Add support for administrative level 3 boundaries and update related …
+MHMasuk
+MHMasuk
+authored
+last month
+Verified
+Add support for administrative level 3 boundaries and update related documentation
+- Introduced new administrative level 3 (sub-district) boundaries sourced from geoBoundaries and OCHA COD-AB.
+- Updated `admin-boundary-data-sources.md` to include details about the new level 3 boundaries.
+- Added `build_admin3_boundaries.py` script for standalone generation of admin level 3 boundaries.
+- Created `regenerate_admin3_boundaries.py` management command for Django to regenerate admin level 3 boundaries.
+- Updated population impact calculations to include the new administrative level 3.
+- Enhanced error handling and logging for boundary fetching processes.
+- Added `remotezip` dependency to requirements for handling remote zip files.
+MHMasuk
+MHMasuk
+committed
+last month
+Commits on Aug 23, 2026
+feat: Increase memory limit for celery_worker to 4g
+MHMasuk
+MHMasuk
+committed
+last month
+Merge pull request #25 from MHMasuk/impact
+feat: Add population by age band and sex endpoint with GeoJSON response
+MHMasuk
+MHMasuk
+authored
+last month
